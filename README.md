@@ -28,11 +28,13 @@ This project implements a state-of-the-art pneumonia detection system using the 
 - **Clinical Support**: Assists healthcare professionals in diagnosis workflow
 - **Research Tool**: Supports medical research and education
 
-## 🚀 Demo
 
-## 🚀 Demo
+<h2>🚀 Demo</h2>
 
-![Pneumonia Detection Demo](https://github.com/user-attachments/assets/46ab3d8f-cb42-431f-b4d1-73b0e465b5d8)
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/46ab3d8f-cb42-431f-b4d1-73b0e465b5d8" alt="Pneumonia Detection Demo" width="48%" />
+  <img src="https://github.com/user-attachments/assets/6d8bb18f-a29d-4fe1-a797-4c89ff7e943a" alt="About Page" width="48%" />
+</p>
 
 
 ## 📊 Performance Metrics
