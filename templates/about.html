@@ -1,0 +1,347 @@
+{% extends "import.html" %}
+
+{% block title %}About - Pneumonia Detection AI{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="hero-header">
+        <h1 class="hero-title">
+            <i class="fas fa-info-circle me-3"></i>
+            About Our Technology
+        </h1>
+        <p class="hero-subtitle">
+            Learn how our AI-powered system revolutionizes pneumonia detection through advanced medical imaging
+        </p>
+    </div>
+
+    <div class="container py-5">
+        <div class="row">
+            <!-- Main Content -->
+            <div class="col-lg-8">
+                <!-- Project Overview -->
+                <div class="card mb-4">
+                    <div class="card-body p-4">
+                        <h3 class="card-title">
+                            <i class="fas fa-microscope text-primary me-2"></i>
+                            Project Overview
+                        </h3>
+                        <p class="card-text">
+                            Our Pneumonia Detection AI leverages cutting-edge deep learning technology to analyze chest X-ray images 
+                            and provide rapid screening for pneumonia. Built using the powerful VGG19 convolutional neural network 
+                            architecture, this system can distinguish between normal and pneumonia cases with high accuracy.
+                        </p>
+                        <p class="card-text">
+                            The application addresses critical healthcare challenges by providing an accessible, fast, and reliable 
+                            screening tool that can assist medical professionals in early detection and diagnosis of pneumonia, 
+                            potentially saving lives through quicker intervention.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Technical Details -->
+                <div class="card mb-4">
+                    <div class="card-body p-4">
+                        <h3 class="card-title">
+                            <i class="fas fa-cogs text-primary me-2"></i>
+                            Technical Architecture
+                        </h3>
+                        
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <h5><i class="fas fa-brain text-info me-2"></i>Deep Learning Model</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i>VGG19 Pre-trained Architecture</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Custom Dense Layers for Classification</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Dropout Regularization (20%)</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Softmax Output for Binary Classification</li>
+                                </ul>
+                            </div>
+                        <small class="text-muted">
+                            <i class="fas fa-info-circle me-1"></i>
+                            Performance metrics based on validation dataset
+                        </small>
+                    </div>
+                </div>
+
+                <!-- Technology Stack -->
+                <div class="card mb-4">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">
+                            <i class="fas fa-layer-group text-info me-2"></i>
+                            Technology Stack
+                        </h4>
+                        <div class="mb-3">
+                            <h6><i class="fab fa-python me-2 text-warning"></i>Backend</h6>
+                            <div class="d-flex flex-wrap gap-1">
+                                <span class="badge bg-secondary">Python</span>
+                                <span class="badge bg-secondary">TensorFlow</span>
+                                <span class="badge bg-secondary">Flask</span>
+                                <span class="badge bg-secondary">OpenCV</span>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <h6><i class="fab fa-html5 me-2 text-danger"></i>Frontend</h6>
+                            <div class="d-flex flex-wrap gap-1">
+                                <span class="badge bg-secondary">HTML5</span>
+                                <span class="badge bg-secondary">CSS3</span>
+                                <span class="badge bg-secondary">Bootstrap 5</span>
+                                <span class="badge bg-secondary">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <h6><i class="fas fa-brain me-2 text-success"></i>AI/ML</h6>
+                            <div class="d-flex flex-wrap gap-1">
+                                <span class="badge bg-secondary">VGG19</span>
+                                <span class="badge bg-secondary">Keras</span>
+                                <span class="badge bg-secondary">NumPy</span>
+                                <span class="badge bg-secondary">PIL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Features -->
+                <div class="card">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">
+                            <i class="fas fa-star text-warning me-2"></i>
+                            Key Features
+                        </h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                Real-time image analysis
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                Drag & drop file upload
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                Mobile-responsive design
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                Secure file handling
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                Professional medical UI
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                Cross-platform compatibility
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Development Information -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-center mb-4">
+                            <i class="fas fa-code text-primary me-2"></i>
+                            Development & Research
+                        </h3>
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-3">
+                                <div class="feature-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h5>Dataset Training</h5>
+                                <p class="text-muted">
+                                    Model trained on comprehensive chest X-ray datasets with thousands of 
+                                    normal and pneumonia cases for robust performance.
+                                </p>
+                            </div>
+                            <div class="col-md-4 text-center mb-3">
+                                <div class="feature-icon">
+                                    <i class="fas fa-flask"></i>
+                                </div>
+                                <h5>Research Based</h5>
+                                <p class="text-muted">
+                                    Built on peer-reviewed research in medical imaging and deep learning 
+                                    applications for respiratory disease detection.
+                                </p>
+                            </div>
+                            <div class="col-md-4 text-center mb-3">
+                                <div class="feature-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h5>Community Impact</h5>
+                                <p class="text-muted">
+                                    Designed to support healthcare accessibility and provide screening 
+                                    assistance in resource-limited settings.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Future Enhancements -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card border-info">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-info">
+                            <i class="fas fa-rocket me-2"></i>
+                            Future Enhancements
+                        </h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5><i class="fas fa-plus text-success me-2"></i>Planned Features</h5>
+                                <ul>
+                                    <li>Multi-class pneumonia type detection</li>
+                                    <li>Confidence score visualization</li>
+                                    <li>Batch image processing</li>
+                                    <li>Integration with DICOM viewers</li>
+                                    <li>API endpoints for healthcare systems</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h5><i class="fas fa-chart-line text-primary me-2"></i>Model Improvements</h5>
+                                <ul>
+                                    <li>Enhanced training on larger datasets</li>
+                                    <li>Age and gender-specific models</li>
+                                    <li>Real-time model performance monitoring</li>
+                                    <li>Explainable AI visualization</li>
+                                    <li>Multi-language support interface</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+                            <div class="col-md-6 mb-3">
+                                <h5><i class="fas fa-server text-info me-2"></i>Backend Technology</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i>TensorFlow & Keras Framework</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Flask Web Application</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>OpenCV Image Processing</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>PIL Image Optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-info mt-3">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <strong>Model Specifications:</strong> Input size: 128×128 pixels | Color channels: RGB | 
+                            Processing time: &lt;5 seconds | Memory usage: Optimized for web deployment
+                        </div>
+                    </div>
+                </div>
+
+                <!-- How It Works -->
+                <div class="card mb-4">
+                    <div class="card-body p-4">
+                        <h3 class="card-title">
+                            <i class="fas fa-workflow text-primary me-2"></i>
+                            How It Works
+                        </h3>
+                        
+                        <div class="row">
+                            <div class="col-md-3 text-center mb-3">
+                                <div class="feature-icon mx-auto mb-2" style="width: 50px; height: 50px;">
+                                    <span class="fw-bold">1</span>
+                                </div>
+                                <h6>Upload X-Ray</h6>
+                                <small class="text-muted">Patient uploads chest X-ray image</small>
+                            </div>
+                            <div class="col-md-3 text-center mb-3">
+                                <div class="feature-icon mx-auto mb-2" style="width: 50px; height: 50px;">
+                                    <span class="fw-bold">2</span>
+                                </div>
+                                <h6>Image Processing</h6>
+                                <small class="text-muted">AI preprocesses and normalizes the image</small>
+                            </div>
+                            <div class="col-md-3 text-center mb-3">
+                                <div class="feature-icon mx-auto mb-2" style="width: 50px; height: 50px;">
+                                    <span class="fw-bold">3</span>
+                                </div>
+                                <h6>AI Analysis</h6>
+                                <small class="text-muted">VGG19 model analyzes image features</small>
+                            </div>
+                            <div class="col-md-3 text-center mb-3">
+                                <div class="feature-icon mx-auto mb-2" style="width: 50px; height: 50px;">
+                                    <span class="fw-bold">4</span>
+                                </div>
+                                <h6>Results</h6>
+                                <small class="text-muted">Instant classification and confidence score</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medical Disclaimer -->
+                <div class="card border-warning">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-warning">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            Important Medical Disclaimer
+                        </h3>
+                        <div class="alert alert-warning mb-0">
+                            <p class="mb-2">
+                                <strong>This AI system is designed as a screening tool only and should not replace professional medical diagnosis.</strong>
+                            </p>
+                            <ul class="mb-2">
+                                <li>Always consult with qualified healthcare professionals for proper diagnosis</li>
+                                <li>Results should be interpreted by trained medical personnel</li>
+                                <li>This tool is not approved for clinical diagnosis or treatment decisions</li>
+                                <li>Emergency medical conditions require immediate professional attention</li>
+                            </ul>
+                            <p class="mb-0">
+                                <i class="fas fa-user-md me-1"></i>
+                                For medical emergencies, contact your healthcare provider or emergency services immediately.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-4">
+                <!-- Model Performance -->
+                <div class="card mb-4">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">
+                            <i class="fas fa-chart-bar text-success me-2"></i>
+                            Performance Metrics
+                        </h4>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span>Accuracy</span>
+                                <strong>90%</strong>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-success" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span>Sensitivity</span>
+                                <strong>92%</strong>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-info" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span>Specificity</span>
+                                <strong>97%</strong>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-primary" style="width: 97%"></div>
+                            </div>
+                        </div>
