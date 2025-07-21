@@ -30,7 +30,7 @@ This project implements a state-of-the-art pneumonia detection system using the 
 
 ## 🚀 Demo
 
-![Pneumonia Detection Demo](demo/demo-screenshot.png)
+![Pneumonia Detection Demo](<img width="1881" height="870" alt="image" src="https://github.com/user-attachments/assets/46ab3d8f-cb42-431f-b4d1-73b0e465b5d8" />)
 
 ## 📊 Performance Metrics
 
